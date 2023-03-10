@@ -11,5 +11,28 @@
 
 .ef-jumbotron {
   height: 500px;
-  background-color: lightblue ;
+  background-color: lightgreen ;
+}
+header {
+  height: 80px;
+  background-color: darkblue;
+  color: white;
+  line-height: 80px;
+}
+
+.debug.box{
+  min-height: 250px;
+}
+
+h1{
+
+}
+.end{
+  background-color: darkblue;
+  height: 80px;
+}
+
+footer{
+  color: white;
+  background-color: blue;
 }
