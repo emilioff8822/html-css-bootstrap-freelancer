@@ -29,6 +29,7 @@ footer{
 
 .footer-top{
   background-color: #3A546D;
+  paddi
 }
 .footer-bottom{
   background-color: #2C3E50;
@@ -68,4 +69,9 @@ border: none;
 .sc-container button {
   font-size: .5rem;
   border-radius: 0;
+}
+
+#about {
+  background-color: #31BC9C;
+  height: 240px;
 }
