@@ -1,4 +1,4 @@
-/* DEBUG */
+/* DEBUG 
 [class^='container'],[class^='col'], .sc-container{
   background-color: rgba(255, 0, 0, .25);
   border: 1px solid #000;
@@ -38,12 +38,15 @@ footer{
   border-left: none;
   border-top: none;
   border-top: none;
+  border-right: none;
 }
 
 .ef-form textarea {
   border-left: none;
   border-top: none;
   border-top: none;
+  border-right: none;
+
 }
 
 .ef-form input::placeholder {
@@ -56,4 +59,13 @@ footer{
 
 .ef-form button {
 border: none;
+}
+
+.container img {
+  width: 100%;
+}
+
+.sc-container button {
+  font-size: .5rem;
+  border-radius: 0;
 }
