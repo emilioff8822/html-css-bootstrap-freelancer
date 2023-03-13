@@ -1,38 +1,59 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.debug {
-  background-color: rgba(227, 62, 62, 0.5);
-  border: 1px solid black;
+/* DEBUG */
+[class^='container'],[class^='col'], .sc-container{
+  background-color: rgba(255, 0, 0, .25);
+  border: 1px solid #000;
   min-height: 50px;
 }
+/* ---------- */
 
-.ef-jumbotron {
-  height: 500px;
-  background-color: lightgreen ;
+.ef-container{
+  width: 60%;
+  margin: 0 auto;
 }
-header {
-  height: 80px;
-  background-color: darkblue;
+
+header{
+  background-color: #2C3E50;
+  height: 90px;
   color: white;
-  line-height: 80px;
 }
 
-.debug.box{
-  min-height: 250px;
-}
-
-h1{
-
-}
-.end{
-  background-color: darkblue;
-  height: 80px;
+.sc-jumbotron{
+  background-color: #31BC9C;
+  height: 495px;
+  color: white;
 }
 
 footer{
   color: white;
-  background-color: blue;
+}
+
+.footer-top{
+  background-color: #3A546D;
+}
+.footer-bottom{
+  background-color: #2C3E50;
+}
+
+.ef-form input {
+  border-left: none;
+  border-top: none;
+  border-top: none;
+}
+
+.ef-form textarea {
+  border-left: none;
+  border-top: none;
+  border-top: none;
+}
+
+.ef-form input::placeholder {
+  color: black;
+}
+
+.ef-form textarea::placeholder {
+  color: black;
+}
+
+.ef-form button {
+border: none;
 }
