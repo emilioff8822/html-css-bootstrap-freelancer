@@ -75,3 +75,38 @@ border: none;
   background-color: #31BC9C;
   height: 240px;
 }
+
+.sc-jumbotron .avatar{
+  width: 250px;
+}
+
+.ef-star{
+  font-size: 30px;
+}
+
+.ef-star::after{
+  content: '';
+  background-color: white;
+  display: inline-block;
+  height: 4px;
+  width: 15%;
+  border-radius: 2px;
+
+}
+
+
+.ef-star::before{
+  content: '';
+  background-color: white;
+  display: inline-block;
+  height: 4px;
+  width: 15%;
+  border-radius: 2px;
+
+}
+
+
+.ef-star i {
+  margin: 0 2%;
+  
+}
