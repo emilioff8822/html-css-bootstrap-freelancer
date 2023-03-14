@@ -110,3 +110,22 @@ border: none;
   margin: 0 2%;
   
 }
+#portfolio .ef-star::after{
+  content: '';
+  background-color: black;
+  display: inline-block;
+  height: 4px;
+  width: 15%;
+  border-radius: 2px;
+
+}
+
+#portfolio .ef-star::before{
+  content: '';
+  background-color: black;
+  display: inline-block;
+  height: 4px;
+  width: 15%;
+  border-radius: 2px;
+
+}
